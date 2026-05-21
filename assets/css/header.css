@@ -304,6 +304,15 @@ header {
     padding: 1rem;
     border-radius: 50px;
   }
+
+  .header-whats-btn:hover {
+    cursor: pointer;
+    background-color: var(--color-primary);
+  }
+
+  .header-whats-btn:active {
+    background-color: var(--color-primary);
+  }
 }
 
 /* HEADER WIDE 1920px */

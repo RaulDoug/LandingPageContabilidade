@@ -35,6 +35,10 @@
   align-items: center;
 }
 
+.footer-btn:active {
+  background-color: var(--color-primary);
+}
+
 .footer-btn * {
   background-color: transparent;
   color: var(--color-background);
@@ -168,7 +172,11 @@
   .footer-btn {
     width: 25%;
     height: 60px;
-  } 
+  }
+
+  .footer-btn:hover {
+    background-color: var(--color-primary);
+  }
 
   .footer-btn p {
     font-size: 1.2rem;
