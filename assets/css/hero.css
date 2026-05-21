@@ -84,6 +84,14 @@
   border-radius: 30px;
 }
 
+.contato-whats-btn:active {
+  background-color: var(--color-primary);
+}
+
+.contato-hero-services:active {
+  border-color: var(--color-orange);
+}
+
 .info-hero {
   display: flex;
   flex-direction: column;
@@ -266,6 +274,16 @@
 
   .info-hero-iten p {
     font-size: 1.2rem;
+  }
+
+  .contato-whats-btn:hover {
+    background-color: var(--color-primary);
+    cursor: pointer;
+  }
+
+  .contato-hero-services:hover {
+    border-color: var(--color-orange);
+    cursor: pointer;
   }
 }
 
