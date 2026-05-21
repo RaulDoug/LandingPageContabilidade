@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  font-family: var(--font-principal);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+.read-more-btn {
+  text-align: start;
+  width: 40%;
+  border: none;
+  color: var(--color-orange);
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.read-more-btn:active {
+  color: var(--color-primary);
+}
+
+li {
+  list-style: none;
+}
+
+#hero,
+#about,
+#services,
+#consult,
+#testimonials,
+#footer {
+  scroll-margin-top: 90px;
+}
+
+@media (min-width: 1920px) {
+  #hero,
+  #about,
+  #services,
+  #consult,
+  #testimonials,
+  #footer {
+    scroll-margin-top: 135px;
+  }
+}

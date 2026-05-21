@@ -1,0 +1,13 @@
+/* Variaveis */
+@import url('./variables.css');
+@import url('./style.css');
+
+/* Layout components */
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./services.css');
+@import url('./consult.css');
+@import url('./testimonials.css');
+@import url('./map.css');
+@import url('./footer.css');

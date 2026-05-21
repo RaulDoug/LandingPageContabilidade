@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  /* =========================================================
+     FONTES PRINCIPAIS
+  ========================================================= */
+  
+  --font-principal: "Poppins", sans-serif;
+
+  /* =========================================================
+     CORES PRINCIPAIS
+  ========================================================= */
+
+  /*Azul principal da marca*/
+  --color-primary: #0D3B66;
+
+  /*Azul secundário*/
+  --color-primary-light: #144E86;
+
+  /*Azul vibrante*/
+  --color-accent-blue: #2F80ED;
+
+  /* =========================================================
+     LARANJAS
+  ========================================================= */
+
+  /*Laranja principal*/
+  --color-orange: #FF7A00;
+
+  /*Laranja hover*/
+  --color-orange-light: #FF9A3C;
+
+  /*Laranja suave*/
+  --color-orange-soft: #FFF2E8;
+
+  /* =========================================================
+     BACKGROUNDS
+  ========================================================= */
+
+  /*Branco puro*/
+  --color-white: #FFFFFF;
+
+  /*Fundo cinza claro*/
+  --color-background: #F7F9FC;
+
+  /*Fundo azul ultra escuro*/
+  --color-dark-bg: #071826;
+
+  /*Fundo azul médio*/
+  --color-dark-surface: #102A43;
+
+  /* =========================================================
+     TEXTOS
+  ========================================================= */
+
+  /*Preto suave*/
+  --color-text-primary: #111827;
+
+  /*Cinza médio*/
+  --color-text-secondary: #5B6470;
+
+  /*Cinza claro*/
+  --color-text-light: #98A2B3;
+
+  /* =========================================================
+     BORDAS E LINHAS
+  ========================================================= */
+
+  /*Borda clara padrão*/
+  --color-border: #E5E7EB;
+
+  /*Borda premium suave*/
+  --color-border-soft: #EEF2F7;
+
+  /* =========================================================
+     SOMBRAS
+  ========================================================= */
+
+  /*Sombra leve*/
+  --shadow-soft: rgba(15, 23, 42, 0.06);
+
+  /*Sombra média*/
+  --shadow-medium: rgba(15, 23, 42, 0.12);
+
+  /*Sombra forte*/
+  --shadow-strong: rgba(15, 23, 42, 0.22);
+
+  /* =========================================================
+     GRADIENTES
+  ========================================================= */
+
+  /* Gradiente principal hero */
+  --gradient-primary:
+    linear-gradient(
+      135deg,
+      #0D3B66 0%,
+      #144E86 100%
+    );
+
+  /* Gradiente azul moderno */
+  --gradient-blue:
+    linear-gradient(
+      135deg,
+      #144E86 0%,
+      #2F80ED 100%
+    );
+
+  /* Gradiente CTA */
+  --gradient-orange:
+    linear-gradient(
+      135deg,
+      #FF7A00 0%,
+      #FF9A3C 100%
+    );
+
+}
