@@ -227,27 +227,3 @@
     font-size: 1.15rem;
   }
 }
-
-/* FOOTER WIDE 1920px */
-@media (min-width: 1920px) {
-  .footer-title {
-    font-size: 2.6rem;
-  }
-
-  .footer-desc {
-    font-size: 1.5rem;
-  }
-
-  .footer-btn p {
-    font-size: 1.4rem;
-  }
-
-  .more-nav h3 {
-    font-size: 1.9rem;
-  }
-
-  .more-nav-list a,
-  .more-bottom p {
-    font-size: 1.5rem;
-  }
-}
