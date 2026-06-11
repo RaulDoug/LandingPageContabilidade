@@ -280,36 +280,3 @@
     font-size: 1.2rem;
   }
 }
-
-/* HERO WIDE 1920px */ 
-@media (min-width: 1920px) {
-  .contato-hero {
-    width: 45%;
-  }
-
-  .contato-title-hero {
-    font-size: 3rem;
-  }
-
-  .contato-desc-hero {
-    font-size: 1.6rem;
-  }
-
-  .container-btn * {
-    font-size: 1.6rem;
-  }
-
-  .contato-whats-btn,
-  .contato-hero-services {
-    padding: 2.3rem 2rem;
-    border-radius: 40px;
-  }
-
-  .info-icon-container i {
-    font-size: 3.5rem;
-  }
-
-  .info-hero-iten p {
-    font-size: 1.6rem;
-  }
-}
