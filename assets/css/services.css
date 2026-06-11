@@ -150,28 +150,3 @@
     display: none;
   }
 }
-
-/* SERVIES WIDE 1920px */
-@media (min-width: 1920px) {
-  .services-title {
-    font-size: 2.6rem;
-  }
-
-  .service-iten {
-    padding: 4rem 1.5rem;
-  }
-
-  .service-icon-container {
-    width: 100px;
-    height: 100px;
-  }
-
-  .service-icon-container i {
-    font-size: 3.5rem;
-    margin-top: 1rem;
-  }
-
-  .service-iten p {
-    font-size: 1.6rem;
-  }
-}
