@@ -129,37 +129,3 @@
     font-size: 1rem;
   }
 }
-
-/* CONSULT WIDE 1920px */
-@media (min-width: 1920px) {
-  .consult {
-    padding: 2rem 3.4rem;
-    max-height: 100vh;
-  }
-
-  .consult-title {
-    font-size: 2.6rem;
-  }
-
-  .consult-subtitle {
-    font-size: 1.6rem;
-  }
-
-  .consult-list {
-    margin-top: 1rem;
-    max-height: 80vh;
-  }
-  
-  .consult-icon i {
-    font-size: 4rem;
-  }
-
-  .consult-text h4 {
-    font-size: 1.6rem;
-  }
-
-  .consult-text p {
-    font-size: 1.4rem;
-  }
-
-}
