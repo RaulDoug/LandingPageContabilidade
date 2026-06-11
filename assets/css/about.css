@@ -70,21 +70,3 @@
     padding-bottom: 1rem;
   }
 }
-
-/* ABOUT WIDE 1920px */
-@media (min-width: 1920px) {
-   .about-title {
-    font-size: 2.6rem;
-  }
-
-  .about-desc {
-    font-size: 1.5rem;
-    min-height: 384px;
-  }
-
-  #about-btn {
-    font-size: 1.5rem;
-    padding-top: 1rem;
-  }
-}
-
