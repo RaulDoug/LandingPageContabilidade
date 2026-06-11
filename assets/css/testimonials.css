@@ -198,31 +198,3 @@
     font-size: 0.9rem;
   }
 }
-
-/* TESTIMONIALS WIDE 1920px */
-@media (min-width: 1920px) {
-  .test-title {
-    font-size: 2.6rem;
-  }
-
-  .item-top p {
-    font-size: 1.5rem;
-  }
-
-  .item-bottom {
-    height: 6vh;
-  }
-
-  .item-bottom img {
-    width: 65px;
-    height: 65px;
-  }
-
-  .item-bottom h4 {
-    font-size: 1.4rem;
-  }
-
-  .item-bottom h5 {
-    font-size: 1.3rem;
-  }
-}
