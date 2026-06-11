@@ -312,22 +312,3 @@ header {
     transform: scale(1.03);
   }
 }
-
-/* HEADER WIDE 1920px */
-@media (min-width: 1920px) {
-  .header-logo {
-    height: 100%;
-    width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .nav-desktop a {
-    font-size: 1.6rem;
-  }
-
-  .header-whats-btn {
-    font-size: 1.5rem;
-  }
-}
