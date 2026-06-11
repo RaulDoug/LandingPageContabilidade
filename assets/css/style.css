@@ -16,16 +16,21 @@ body.menu-open {
 
 .read-more-btn {
   text-align: start;
+  margin-left: 3px;
   width: 40%;
   border: none;
   color: var(--color-orange);
   font-size: 1rem;
   font-weight: bold;
   background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
-.read-more-btn:active {
+.read-more-btn:active,
+.read-more-btn:hover {
   color: var(--color-primary);
+  transform: scale(1.03);
 }
 
 li {

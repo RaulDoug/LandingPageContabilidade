@@ -30,6 +30,13 @@
   }
 }
 
+/* DESKTOP 1220px*/
+@media (min-width: 1220px) {
+  .map {
+    padding: 1.5rem 3.8rem;
+  }
+}
+
 /* MAP DESKTOP 1440px */
 @media (min-width: 1440px) {
   .map {
@@ -46,6 +53,13 @@
 
   .map-loc {
     border-radius: 10px;
+  }
+}
+
+/* WIDE 1440px */ 
+@media (min-width: 1440px) {
+  .map-title {
+    font-size: 1.6rem;
   }
 }
 

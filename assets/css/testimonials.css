@@ -33,12 +33,17 @@
   align-items: center;
   text-align: center;
   z-index: 1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .arrow-left:active,
-.arrow-right:active {
+.arrow-right:active,
+.arrow-left:hover,
+.arrow-right:hover {
   color: var(--color-primary);
   border-color: var(--color-primary);
+  transform: scale(1.03);
 }
 
 .arrow-left i,
@@ -127,6 +132,13 @@
   }
 }
 
+/* DESKTOP 1220px */
+@media (min-width: 1220px) {
+  .testimonials {
+    padding: 1.5rem 3.8rem;
+  }
+}
+
 /* TESTIMONIALS DESKTOP 1440px */
 @media (min-width: 1440px) {
   .testimonials {
@@ -134,7 +146,7 @@
   }
 
   .test-title {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     padding: 0;
   }
 
@@ -161,11 +173,12 @@
 
   .test-item {
     height: 30vh;
+    max-width: 35vw;
     padding: 0.2rem 2rem;
   }
 
   .item-top p {
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 
   .item-bottom {
@@ -178,11 +191,11 @@
   }
 
   .item-bottom h4 {
-    font-size: 1.2rem;
+    font-size: 0.95rem;
   }
 
   .item-bottom h5 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 }
 

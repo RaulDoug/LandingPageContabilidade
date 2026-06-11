@@ -70,6 +70,8 @@
   font-size: 1rem;
   border-radius: 30px;
   margin-bottom: 1rem;
+  transition: 0.3s ease-in;
+  cursor: pointer;
 }
 
 .contato-hero-services {
@@ -82,14 +84,20 @@
   width: 90%;
   height: 50px;
   border-radius: 30px;
+  transition: 0.3s ease-in;
+  cursor: pointer;
 }
 
-.contato-whats-btn:active {
+.contato-whats-btn:active, 
+.contato-whats-btn:hover {
   background-color: var(--color-primary);
+  transform: scale(1.03);
 }
 
-.contato-hero-services:active {
+.contato-hero-services:active,
+.contato-hero-services:hover {
   border-color: var(--color-orange);
+  transform: scale(1.03);
 }
 
 .info-hero {
@@ -237,12 +245,8 @@
   }
 }
 
-/* HERO DESKTOP 1440px */
-@media (min-width: 1440px) {
-
-  .hero-container {
-    margin-top: 2rem;
-  }
+/* HERO DESKTOP 1220px */
+@media (min-width: 1220px) {
 
   .hero {
     min-height: 700px;
@@ -274,16 +278,6 @@
 
   .info-hero-iten p {
     font-size: 1.2rem;
-  }
-
-  .contato-whats-btn:hover {
-    background-color: var(--color-primary);
-    cursor: pointer;
-  }
-
-  .contato-hero-services:hover {
-    border-color: var(--color-orange);
-    cursor: pointer;
   }
 }
 

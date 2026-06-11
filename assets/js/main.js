@@ -96,7 +96,7 @@ window.readMore = function () {
 
   // Consult
   const consultBtn = document.getElementById('consult-btn');
-  const consultList = document.querySelector('.consult-list');
+  const consultList = document.getElementById('consult-list');
 
   const consultHeight = getComputedStyle(consultList).maxHeight;
 

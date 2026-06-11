@@ -5,7 +5,7 @@ header {
   align-items: center;
   padding: 2rem 1.4rem 1.4rem 1rem;
   width: 100%;
-  height: 12vh;
+  height: 10vh;
   position: fixed;
   top: 0;
   z-index: 9999;
@@ -229,8 +229,8 @@ header {
   }
 }
 
-/* HEADER DESKTOP 1440px */
-@media (min-width: 1440px) {
+/* HEADER DESKTOP 1220px */
+@media (min-width: 1220px) {
   .logo-mobile {
     display: none;
   }
@@ -245,13 +245,13 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    height: 12vh;
+    height: 10vh;
     padding: 0.5rem 1.2rem;
   }
 
   .header-logo {
     height: 100%;
-    width: 150px;
+    width: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -279,15 +279,14 @@ header {
     font-size: 1.2rem;
     text-decoration: none;
     color: var(--color-primary);
+    transition: 0.3s ease-in;
   }
 
-  a:hover {
+  a:hover,
+  a:active  {
     color: var(--color-orange);
     cursor: pointer;
-  }
-
-  a:active {
-    color: var(--color-orange);
+    transform: scale(1.03);
   }
 
   .menu-open-btn {
@@ -303,15 +302,14 @@ header {
     font-weight: 450;
     padding: 1rem;
     border-radius: 50px;
+    transition: 0.3s ease-in;
   }
 
-  .header-whats-btn:hover {
+  .header-whats-btn:hover,
+  .header-whats-btn:active {
     cursor: pointer;
     background-color: var(--color-primary);
-  }
-
-  .header-whats-btn:active {
-    background-color: var(--color-primary);
+    transform: scale(1.03);
   }
 }
 
